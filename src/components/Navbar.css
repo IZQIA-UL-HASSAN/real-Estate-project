@@ -1,0 +1,31 @@
+/* Navbar.css */
+.navbar {
+  position: fixed;   /* sticks to top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(22, 21, 21, 0.8); /* dark semi-transparent */
+  padding: 15px 0;
+  z-index: 1000; /* keeps it above background slideshow */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;  /* center links */
+  gap: 100px;               /* space between items */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar li:hover {
+  color: #ffcc00; /* highlight on hover */
+}
