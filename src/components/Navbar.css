@@ -23,9 +23,14 @@
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  padding:10px;
   transition: color 0.3s ease;
 }
 
-.navbar li:hover {
+.navbar ul li:hover {
   color: #ffcc00; /* highlight on hover */
+  cursor: pointer;
+}
+#list{
+font-size: 20px;
 }
